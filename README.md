@@ -2,7 +2,7 @@
 
 # proBD WordPress Theme
 
-#### proBD Theme is dedicated to [Learn With Hasin Hayder] (https://learnwith.hasinhayder.com/wp/)
+#### proBD Theme is dedicated to [Learn With Hasin Hayder](https://learnwith.hasinhayder.com/wp/)
 
 ## Description
 
