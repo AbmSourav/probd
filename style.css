@@ -1,0 +1,319 @@
+/*
+Theme Name: proBD
+Theme URI: https://abmsourav.com/probd
+Author: Keramot UL Islam
+Author URI: https://abmsourav.com
+GitHub Theme URI: https://github.com/AbmSourav/probd
+Description: 'proBD' is a simple, allegiant & easy to use WordPress theme. It features custom styles for all the default blocks of new block editor. It is based on 'UnderStrap' starter theme. It's also based on 'Bootstrap 4' front-end framework. It is a light-weight theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: probd
+Tags: theme-options, custom-logo, custom-colors, featured-images, threaded-comments, editor-style, post-formats, footer-widgets, sticky-post, translation-ready, blog
+
+proBD theme, like WordPress, is licensed under the GPL.
+proBD is based on UnderStrap https://understrap.com/, (C) 2013-2017 Holger Koenemann
+
+** Resources
+* Based on UnderStrap WordPress Theme. Copyright 2013-2017 Holger Koenemann http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+* Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+* Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
+* WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+
+/*** custom css for theme ***/
+
+/* main body */
+body {
+  line-height: 1.7;
+}
+
+::selection {
+  color: #212529;
+  background: #5bd7ea;
+}
+
+.sticky {
+  background: #fff !important;
+}
+.sticky:before {
+  content: "Featured";
+  position: absolute;
+  color: #fff;
+  background: #17a2b8;
+  padding: .2rem;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  right: 0;
+  top: 0;
+  font-size: 62%;
+  letter-spacing: 1.3px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#page {
+  background-color: #fafafa;
+  color: #212529;
+  background-image: url();
+}
+#site-title > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.wrapper a {
+  color: #17a2b8;
+}
+.wrapper a:hover, time.text-muted:hover {
+  filter: brightness(75%);
+  text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .h1, h1 {
+      font-size: 1.5rem;
+  }
+  .h2, h2 {
+      font-size: 1.3rem;
+  }
+  li.menu-item-has-children.dropdown > ul {
+      display: block !important;
+      top: 2rem;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .h1, h1 {
+      font-size: 1.6rem;
+  }
+  .h2, h2 {
+      font-size: 1.4rem;
+  }
+  li.menu-item-has-children.dropdown:hover > ul {
+      display: block !important;
+      top: 2rem;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .h1, h1 {
+      font-size: 2rem;
+  }
+  .h2, h2 {
+      font-size: 1.8rem;
+  }
+  .home.blog h2 {
+      font-size: 1.5rem;
+  }
+  li.menu-item-has-children.dropdown:hover > ul {
+      display: block !important;
+      top: 2rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .h1, h1 {
+      font-size: 2.3rem;
+  }
+  .h2, h2 {
+      font-size: 2rem;
+  }
+  .home.blog h2 {
+      font-size: 1.5rem;
+  }
+  li.menu-item-has-children.dropdown:hover > ul {
+      display: block !important;
+      top: 2rem;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .h1, h1 {
+      font-size: 2.3rem;
+  }
+  .h2, h2 {
+      font-size: 2rem;
+  }
+  .home.blog h2 {
+      font-size: 1.5rem;
+  }
+  li.menu-item-has-children.dropdown:hover > ul {
+      display: block !important;
+      top: 2rem;
+  }
+}
+
+/* single post style */
+.single-post-nav {
+  margin: 1rem 1rem 5rem;
+}
+.single-post-nav .container {
+  margin: 0;
+}
+.single .col-md-12, #page-wrapper .col-md-12 {
+  padding: 0;
+}
+.single .row, #page-wrapper .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.single-post, #page-wrapper article {
+  background-color: #fff;
+}
+.post-footer-bg {
+  background-color: #effff7;
+}
+.f-style {
+  padding: .2rem .5rem;
+  background-color: #b8d8d5;
+  border-radius: 50%;
+}
+
+/* card post style */
+.entry-header {
+  margin-bottom: 1.5rem;
+}
+.card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: -1px 2px 0px rgba(10,16,20,.1), 1px 3px 0px rgba(20,20,20,.1);
+  transition: .5s;
+}
+.card:hover {
+  box-shadow: 0 8px 8px rgba(10,16,20,.24), 0 0 8px rgba(10,16,20,.12);
+  transition: .5s;
+}
+.card-title {
+  margin-bottom: .3rem;
+}
+.card-footer {
+  border: none;
+  background-color: #f5fdf8;
+  text-align: center;
+}
+
+/* taxonomy style */
+.cat-links, .tags-links, .post-edit-link, 
+.entry-meta .posted-on, .comments-link, 
+span.author {
+  font-size: .85rem !important;
+  letter-spacing: .03rem;
+}
+.edit-link a {
+  color: #6c757d !important;
+}
+.all-tags {
+  padding: .4rem .5rem;
+  margin-right: .8rem;
+  margin-bottom: .5rem;
+}
+.all-tags {
+  font-size: .8rem;
+}
+.all-tags:hover {
+  color: #f0f0f0 !important;
+}
+
+/* right sidebar widget style */
+.widget {
+  background: #fafafa;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border: none;
+  padding: .8rem;
+}
+.widget ul {
+  padding-left: 0;
+}
+.widget ul li {
+  list-style: none;
+  margin-bottom: .4rem;
+}
+.footer-widget ul li {
+  list-style: none;
+  margin-bottom: .4rem;
+}
+
+/* comments style */
+#comments {
+  width: 100%;
+  max-width: 960px;
+}
+.comments-area ol {
+  list-style-type: none;
+}
+.comment-list {
+  padding-left: 0;
+  margin-bottom: 3rem;
+}
+.comment-body {
+  margin-bottom: .5rem;
+}
+.comment-list > .comment.even, .comment.odd {
+  margin-bottom: 2rem;
+  border-left: 1px dotted #9e9e9e;
+  padding-left: 1rem;
+}
+.children > .comment.even, .comment.odd {
+  margin-bottom: 1rem;
+  border-left: 1px dotted #9e9e9e;
+  padding-left: 1rem;
+}
+.comment-author.vcard {
+  margin-bottom: .3rem;
+}
+.comment-author.vcard img {
+  border-radius: 50%;
+  margin-right: .3rem;
+}
+.comment-metadata a {
+  color: #6c757d;
+  font-size: .9rem;
+}
+.comment-content p {
+  margin-bottom: .6rem;
+}
+.comment-author.vcard span.says {
+  display: none;
+}
+
+/* author style */
+.author-detail{
+  clear: both;
+  overflow: hidden;
+}
+.author-avatar {
+  float: left;
+}
+.author-meta {
+  width: 80%;
+  float: left;
+}
+.author-avatar img {
+  border-radius: 50%;
+}
+
+/* page style */
+#page-wrapper #right-sidebar {
+  top: 5.5rem;
+}
+
+/* footer widget style */
+.footer-widget {
+  margin-bottom: 1rem;
+}
+.footer-widget ul {
+  padding-left: 0 !important;
+}
+.footer-widget ul li a {
+  color: #fff;
+}

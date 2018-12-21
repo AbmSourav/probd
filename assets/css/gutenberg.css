@@ -1,0 +1,78 @@
+/* Gutenberg block styles */
+
+.edit-post-visual-editor {
+    font-size: 100% !important;
+}
+p {
+    font-size: 16px !important;
+}
+.editor-block-list__block { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; 
+    font-size: 16px !important; 
+    font-weight: 400 !important; 
+    line-height: 1.5 !important; 
+    color: #212529 !important; 
+}
+.editor-block-list__block .mce-content-body {
+    line-height: 1.5 !important;
+}
+.wp-block-freeform.block-library-rich-text__tinymce li, .wp-block-freeform.block-library-rich-text__tinymce p {
+    line-height: 1.5 !important;
+    margin-top: 0;
+}
+.editor-block-list__block .mce-content-body a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+.editor-block-list__block .mce-content-body a:hover {
+    filter: brightness(75%);
+    cursor: pointer;
+}
+.wp-block-image figcaption {
+    margin-top: .5em;
+    margin-bottom: 0 !important;
+    color: #555d66;
+    text-align: center;
+    font-size: 13px;
+}
+code, kbd, pre, samp {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !important;
+    font-size: 1em !important;
+}
+.wp-block-freeform.block-library-rich-text__tinymce pre {
+    font-size: 87.5% !important;
+    background-color: #fafafa;
+    padding: 1rem;
+    color: #212529 !important;
+}
+.wp-block-preformatted {
+    background: #fafafa;
+    padding: 1rem 1rem !important;
+}
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    padding: 1rem 1rem !important;
+    margin-bottom: 1rem;
+    line-height: 1.5 !important;
+    background: #fafafa !important;
+}
+.wp-block-quote.is-style-default, .wp-block-quote.is-large, .wp-block-quote.is-style-large {
+    background-color: #fafafa;
+    padding: 1rem !important;
+}
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
+    font-size: 24px !important;
+}
+
+.wp-block-pullquote {
+    padding: 2em 0 !important;
+}
+.wp-block-pullquote blockquote {
+    margin: 0 !important;
+}
+.wp-block-pullquote blockquote > .block-library-pullquote__content.editor-rich-text p {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+}
+.wp-block-pullquote__citation, .wp-block-pullquote cite, .wp-block-pullquote footer {
+    text-transform: capitalize;
+}
