@@ -1,8 +1,9 @@
 === proBD ===
-Contributors: Keramot UL Islam (sourav926)
+Contributors: sourav926
 Tags: theme-options, custom-logo, custom-colors, featured-images, threaded-comments, editor-style, post-formats, footer-widgets, sticky-post, translation-ready, blog
 Requires at least: 4.9.7
-Tested up to: 5.0.2
+Tested up to: 5.0.3
+Requires PHP: 5.6
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -28,7 +29,12 @@ proBD is distributed under the terms of the GNU GPL version 2.
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
-    = 1.0.1 Feb. 19th 2019 =
+	= 1.0.2 2019 Feb. 26th =
+	* readme.txt validation.
+	* images on screenshot are changed.
+	* screenshot license issues solved.
+
+    = 1.0.1 2019 Feb. 19th =
     * theme uri has changed.
     * Unnecessary fontawesome-all.min.css file has been removed.
     * pingback url added from functions.php
@@ -36,15 +42,22 @@ proBD is distributed under the terms of the GNU GPL version 2.
     = 1.0.0 =
     * Initial Release
 
+== Upgrade Notice ==
+= 0.2 =
+License issues have been solved.
+
+= 0.1 =
+Some minor issues have been fixed. Stay up to date.
+
 == Frequently Asked Questions ==
-= Does this theme support multi-level navigation in main menu? =
-answer: Partially yes. This theme supports two level of navigation. Third level child will not be displayed.
+= Does this theme support multi-level navigation in the main menu? =
+answer: Partially yes. This theme supports two levels of navigation. Third level child will not be displayed.
 = Does this theme has 'Block Editor' compatibility? =
-answer: Yes. Infact I want to encourage users to use 'Block Editor'.
+answer: Yes. In fact, I want to encourage users to use 'Block Editor'.
 = Does this theme has 'Customizer' support? =
 answer: Yes.
 = Does this theme support 'Full screen layout' of Block Editor? =
-answer: Yes. It supports in single post page and default page tempalte.
+answer: Yes. It supports in single post page and default page template.
 
 == Resources ==
 * Based on UnderStrap WordPress Theme. Copyright 2013-2017 Holger Koenemann http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
@@ -52,8 +65,10 @@ answer: Yes. It supports in single post page and default page tempalte.
 * Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
 * WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
 
-== Images Used on Screenshot ==
-https://www.pexels.com/photo/black-iphone-7-on-brown-table-699122/
-https://www.pexels.com/photo/marketing-woman-office-working-36990/
-https://www.pexels.com/photo/photography-of-woman-listening-to-music-761963/
-https://www.pexels.com/photo/internet-screen-security-protection-60504/
+== Screenshots ==
+1. Theme main screenshot. screenshot.png
+= Images used in the screenshot are under CC0 license. =
+* https://www.pexels.com/photo/architecture-buildings-business-city-374870/
+* https://www.pexels.com/photo/architectural-design-architecture-buildings-city-374811/
+* https://www.pexels.com/photo/photo-of-gray-cat-looking-up-against-black-background-730896/
+* https://www.pexels.com/photo/two-person-standing-under-lot-of-bullet-cctv-camera-374103/
