@@ -2,9 +2,9 @@
 Contributors: sourav926
 Tags: theme-options, custom-logo, custom-colors, featured-images, threaded-comments, editor-style, post-formats, footer-widgets, sticky-post, translation-ready, blog
 Requires at least: 4.9.7
-Tested up to: 5.0.3
+Tested up to: 5.1
 Requires PHP: 5.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,10 @@ proBD is distributed under the terms of the GNU GPL version 2.
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+	= 1.1.0 2019 Feb. 28th =
+	* Align Full horizontal scrollabar fixed.
+	* WordPress version compatiblity chacked.
+
 	= 1.0.2 2019 Feb. 26th =
 	* readme.txt validation.
 	* images on screenshot are changed.
@@ -43,6 +47,9 @@ proBD is distributed under the terms of the GNU GPL version 2.
     * Initial Release
 
 == Upgrade Notice ==
+= 1.1.0 =
+Design issues solved.
+
 = 0.2 =
 License issues have been solved.
 

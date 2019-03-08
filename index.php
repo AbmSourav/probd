@@ -20,7 +20,7 @@ get_header();
 <div class="wrapper" id="index-wrapper">
 
 	<div class="container" id="content" tabindex="-1">
-		<main class="site-main" id="main">
+		<main class="site-main mt-5" id="main">
 
 			<div class="row">
 				<div class="card-columns mt-5">

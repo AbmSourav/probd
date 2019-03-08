@@ -1,5 +1,9 @@
 # Changelog
 
+	## 1.1.0 2019 Feb. 28th
+	- Align Full horizontal scrollabar fixed.
+	- WordPress version compatiblity chacked.
+
 	## 1.0.2 2019 Feb. 26th
 	- readme.txt validation.
 	- images on screenshot are changed.

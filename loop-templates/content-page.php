@@ -10,9 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<article <?php post_class(' pt-5'); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class('overflow-hidden pt-5'); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
+	<header class="entry-header my-5">
 
 		<?php the_title( '<h1 class="entry-title mb-5 text-center">', '</h1>' ); ?>
 

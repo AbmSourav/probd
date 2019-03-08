@@ -32,9 +32,16 @@ get_header();
 						if ( comments_open() || get_comments_number() ) :
 							comments_template();
 						endif;
+
+						
 						?>
 
-					<?php endwhile; // end of the loop. ?>
+					<?php endwhile; // end of the loop.  
+					$gmb_text = get_post_meta( get_the_ID(), '_gmb_text_field', true );
+					$gmb_textarea = get_post_meta( get_the_ID(), '_gmb_textarea_field', true );
+					echo "<h2>$gmb_text</h2>";
+					echo "<p>$gmb_textarea</p>";
+					?>
 
 				</main><!-- #main -->
 
