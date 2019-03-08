@@ -28,8 +28,13 @@ proBD is distributed under the terms of the GNU GPL version 2.
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
-= 1.0.0 =
-* Initial Release
+    = 1.0.1 Feb. 19th 2019 =
+    * theme uri has changed.
+    * Unnecessary fontawesome-all.min.css file has been removed.
+    * pingback url added from functions.php
+
+    = 1.0.0 =
+    * Initial Release
 
 == Frequently Asked Questions ==
 = Does this theme support multi-level navigation in main menu? =
