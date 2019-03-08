@@ -31,17 +31,10 @@ get_header();
 						// If comments are open or we have at least one comment, load up the comment template.
 						if ( comments_open() || get_comments_number() ) :
 							comments_template();
-						endif;
-
-						
+						endif;	
 						?>
 
-					<?php endwhile; // end of the loop.  
-					$gmb_text = get_post_meta( get_the_ID(), '_gmb_text_field', true );
-					$gmb_textarea = get_post_meta( get_the_ID(), '_gmb_textarea_field', true );
-					echo "<h2>$gmb_text</h2>";
-					echo "<p>$gmb_textarea</p>";
-					?>
+					<?php endwhile; // end of the loop. ?>
 
 				</main><!-- #main -->
 

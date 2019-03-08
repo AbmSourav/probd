@@ -4,7 +4,7 @@ Tags: theme-options, custom-logo, custom-colors, featured-images, threaded-comme
 Requires at least: 4.9.7
 Tested up to: 5.1
 Requires PHP: 5.6
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,11 @@ proBD is distributed under the terms of the GNU GPL version 2.
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+    = 1.1.1 2019 Mar. 8th =
+    * unused variable has been removed.
+    * menu hover issue has been fixed.
+    * conditional enqueue for block.css added.
+
 	= 1.1.0 2019 Feb. 28th =
 	* Align Full horizontal scrollabar fixed.
 	* WordPress version compatiblity chacked.
@@ -47,6 +52,9 @@ proBD is distributed under the terms of the GNU GPL version 2.
     * Initial Release
 
 == Upgrade Notice ==
+= 1.1.1 =
+Few minor issues have been fixed. Stay up to date.
+
 = 1.1.0 =
 Design issues solved.
 

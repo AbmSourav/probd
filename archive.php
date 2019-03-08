@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header();
+
 ?>
 
 <div class="wrapper mt-3" id="archive-wrapper">
@@ -57,8 +58,8 @@ get_header();
 				
 			</div><!-- .col -->
 
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'sidebar-templates/sidebar', 'right' ); ?>
+			<!-- right sidebar -->
+			<?php get_sidebar('right-sidebar') ?>
 
 		</div> <!-- .row -->
 

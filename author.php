@@ -101,7 +101,7 @@ get_header();
 			</div><!-- .col -->
 
 			<!-- right sidebar -->
-			<?php get_template_part( 'sidebar-templates/sidebar', 'right' ); ?>
+			<?php get_sidebar('right-sidebar') ?>
 
 		</div> <!-- .row -->
 

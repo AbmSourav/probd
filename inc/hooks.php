@@ -36,7 +36,7 @@ if ( ! function_exists( 'probd_add_site_info' ) ) {
         /* translators:*/
         esc_html__( 'Powered by %s. ', 'probd' ), 'WordPress'
       ),
-      esc_url( 'https://abmsourav.com/probd' ),
+      esc_url( 'https://abmsourav.com/probd/probd' ),
       sprintf(
         /* translators:*/
         esc_html__( '%s - ', 'probd' ), 'proBD'

@@ -10,7 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-
 <article class="mb-3">
 	
 	<div <?php post_class( 'card' ); ?> id="post-<?php the_ID(); ?>">
@@ -62,4 +61,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div><!-- .card -->
 
 </article><!-- #post-## -->
-

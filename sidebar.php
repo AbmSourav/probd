@@ -9,13 +9,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if ( ! is_active_sidebar( 'right-sidebar' ) ) {
 	return;
 }
+
 ?>
 
-<div class="col-md-4 widget-area" id="secondary" role="complementary">
+<?php if ( is_active_sidebar( 'right-sidebar' ) ) : ?>
 
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+	<div class="col-md-4 widget-area" id="right-sidebar" role="complementary">
 
-</div><!-- #secondary -->
+		<?php dynamic_sidebar( 'right-sidebar' ); ?>
+
+	</div><!-- #right-sidebar -->
+	
+<?php endif; ?>

@@ -5,7 +5,7 @@ Author: Keramot UL Islam
 Author URI: https://abmsourav.com
 GitHub Theme URI: https://github.com/AbmSourav/probd
 Description: 'proBD' is a simple, allegiant & easy to use WordPress theme. It features custom styles for all the default blocks of new block editor. It is based on 'UnderStrap' starter theme. It's also based on 'Bootstrap 4' front-end framework. It is a light-weight theme.
-Version: 1.1.0
+Version: 1.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: probd
@@ -86,9 +86,12 @@ body {
   .h2, h2 {
       font-size: 1.3rem;
   }
-  li.menu-item-has-children.dropdown > ul {
-      display: block !important;
-      top: 2rem;
+  li .dropdown-menu {
+    background-color: #343a40;
+    color: #fff;
+  }
+  .dropdown-menu a {
+    color: #fff;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -99,9 +102,12 @@ body {
   .h2, h2 {
       font-size: 1.4rem;
   }
-  li.menu-item-has-children.dropdown:hover > ul {
-      display: block !important;
-      top: 2rem;
+  li .dropdown-menu {
+    background-color: #343a40;
+    color: #fff;
+  }
+  .dropdown-menu a {
+    color: #fff;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -115,9 +121,15 @@ body {
   .home.blog h2 {
       font-size: 1.5rem;
   }
-  li.menu-item-has-children.dropdown:hover > ul {
-      display: block !important;
-      top: 2rem;
+  h1#site-title, .site-branding {
+    padding-left: 1rem;
+  }
+  li .dropdown-menu {
+    background-color: #fff;
+    color: #343a40;
+  }
+  .dropdown-menu a {
+    color: #343a40;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -131,9 +143,12 @@ body {
   .home.blog h2 {
       font-size: 1.5rem;
   }
+  ul#main-menu {
+    padding-right: 2rem;
+}
   li.menu-item-has-children.dropdown:hover > ul {
       display: block !important;
-      top: 2rem;
+      top: 2.5rem;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -147,10 +162,18 @@ body {
   .home.blog h2 {
       font-size: 1.5rem;
   }
-  li.menu-item-has-children.dropdown:hover > ul {
-      display: block !important;
-      top: 2rem;
-  }
+}
+
+/* pagination */
+ul.pagination li.page-item.active .page-link.current {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+ul.pagination li.page-item.active .page-link.current:hover {
+  color: #fff;
+}
+ul.pagination li.page-item .page-link:hover {
+  color: #17a2b8
 }
 
 /* single post style */
@@ -219,7 +242,7 @@ span.author {
   margin-bottom: .5rem;
 }
 .all-tags {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 .all-tags:hover {
   color: #f0f0f0 !important;

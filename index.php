@@ -56,9 +56,9 @@ get_header();
 					$tags = get_tags();
 
 					foreach ( $tags as $tag ) {
-						$tag_link = get_tag_link( $tag->term_id );
-						echo "<a class='all-tags badge badge-secondary text-white' href='". esc_attr( $tag_link, 'probd' ) ."'>" . esc_html( $tag->name, 'probd' ) . "</a>" ;
-					}
+						$tag_link = get_tag_link( $tag->term_id ); ?>
+						<a class="all-tags badge badge-secondary text-white" href="<?php echo $tag_link; ?>"><?php echo $tag->name; ?></a>
+				<?php	}
 				} else {
 					the_tags('', '', '');
 				}

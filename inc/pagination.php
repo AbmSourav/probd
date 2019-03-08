@@ -29,7 +29,7 @@ if ( ! function_exists ( 'probd_pagination' ) ) {
 
         ?>
 
-        <nav aria-label="<?php echo $args['screen_reader_text']; ?>">
+        <nav aria-label="<?php echo esc_attr( $args['screen_reader_text'], 'probd' ); ?>">
 
             <ul class="pagination">
 

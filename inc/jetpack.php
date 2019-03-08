@@ -13,8 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Jetpack setup function.
  */
 
-add_action( 'after_setup_theme', 'probd_components_jetpack_setup' );
-
 if ( ! function_exists ( 'probd_components_jetpack_setup' ) ) {
 	function probd_components_jetpack_setup() {
 		// Add theme support for Infinite Scroll.
@@ -32,6 +30,7 @@ if ( ! function_exists ( 'probd_components_jetpack_setup' ) ) {
 
 	}
 }
+add_action( 'after_setup_theme', 'probd_components_jetpack_setup' );
 
 
 /**

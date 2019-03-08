@@ -1,5 +1,10 @@
 # Changelog
 
+	## 1.1.1 2019 Mar. 8th =
+    - unused variable has been removed.
+    - menu hover issue has been fixed.
+    - conditional enqueue for block.css added.
+
 	## 1.1.0 2019 Feb. 28th
 	- Align Full horizontal scrollabar fixed.
 	- WordPress version compatiblity chacked.
