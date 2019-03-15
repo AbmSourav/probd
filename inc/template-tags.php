@@ -68,9 +68,7 @@ if ( ! function_exists ( 'probd_entry_footer' ) ) {
 			}
 		}
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-			echo '<span class="comments-link">';
-			comments_popup_link( '<i class="fa fa-comment"></i>', esc_html__( '1 ', 'probd' ).'<i class="fa fa-comment"></i>', '% <i class="fa fa-comment"></i>' );
-			echo '</span>';
+			comments_popup_link( '<span class="comments-link"><i class="fa fa-comment"></i></span>', '<span class="comments-link">'.esc_html__( '1 ', 'probd' ).'<i class="fa fa-comment"></i></span>', '<span class="comments-link">% <i class="fa fa-comment"></i></span>' );
 		}
 		edit_post_link(
 			sprintf(

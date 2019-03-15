@@ -1,4 +1,7 @@
 # Changelog
+	## 1.1.2 2019 Mar. 15th =
+    - Escaping has been fixed on index.php
+
 
 	## 1.1.1 2019 Mar. 8th =
     - unused variable has been removed.

@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 
 	<?php if ( have_comments() ) : ?>
 
-		<h2 class="comments-title mb-4">
+		<h4 class="comments-title mb-4">
 			
 			<?php
 				$comments_number = get_comments_number();
@@ -52,7 +52,7 @@ if ( post_password_required() ) {
 				}
 			?>
 
-		</h2><!-- .comments-title -->
+		</h4><!-- .comments-title -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through. ?>
 			
@@ -61,12 +61,10 @@ if ( post_password_required() ) {
 				<h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'probd' ); ?></h1>
 				
 				<?php if ( get_previous_comments_link() ) { ?>
-					<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments',
-					'probd' ) ); ?></div>
+					<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'probd' ) ); ?></div>
 				<?php }
 					if ( get_next_comments_link() ) { ?>
-					<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;',
-					'probd' ) ); ?></div>
+					<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'probd' ) ); ?></div>
 				<?php } ?>
 
 			</nav><!-- #comment-nav-above -->
@@ -89,12 +87,10 @@ if ( post_password_required() ) {
 				<h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'probd' ); ?></h1>
 				
 				<?php if ( get_previous_comments_link() ) { ?>
-					<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments',
-					'probd' ) ); ?></div>
+					<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'probd' ) ); ?></div>
 				<?php }
 					if ( get_next_comments_link() ) { ?>
-					<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;',
-					'probd' ) ); ?></div>
+					<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'probd' ) ); ?></div>
 				<?php } ?>
 
 			</nav><!-- #comment-nav-below -->

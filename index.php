@@ -30,9 +30,9 @@ get_header();
 						<!-- Start the Loop -->
 						<?php 
 						while ( have_posts() ) : the_post();
-							/*
-							* Include the Post-Format-specific template for the content.
-							*/
+							/**
+							 * Include the Post-Format-specific template for the content.
+							 */
 							get_template_part( 'loop-templates/content', get_post_format() );
 							?>
 
@@ -53,17 +53,18 @@ get_header();
 			<div class="all-tax mt-5 px-3 text-center">
 				<?php 
 				if ( is_home() || is_front_page() && has_tag() ) {
-					$tags = get_tags();
-
-					foreach ( $tags as $tag ) {
-						$tag_link = get_tag_link( $tag->term_id ); ?>
-						<a class="all-tags badge badge-secondary text-white" href="<?php echo $tag_link; ?>"><?php echo $tag->name; ?></a>
-				<?php	}
+					$probd_tags = get_tags();
+					foreach ( $probd_tags as $probd_tag ) {
+						$probd_tag_link = get_tag_link( $probd_tag->term_id ); ?>
+						<a class="all-tags badge badge-secondary text-white" href="<?php echo esc_url( $probd_tag_link ); ?>">
+							<?php echo esc_html( $probd_tag->name ); ?>
+						</a>
+				<?php }
 				} else {
 					the_tags('', '', '');
 				}
 				?>
-			</div><!-- .all-tags -->
+			</div><!-- .all-tax -->
 
 		</main><!-- #main -->
 	</div><!-- Container end -->
