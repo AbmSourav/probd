@@ -28,23 +28,20 @@ if ( ! function_exists( 'probd_add_site_info' ) ) {
       '<span>%1$s</span>
       <span class="sep"> | </span>
       <a href="%2$s">%3$s</a>
-      <a href="%4$s">%5$s</a>
-      <a href="%6$s">%7$s</a>',
+      <span>%4$s %5$s</span>',
       esc_html( 'Copyright &copy; 2018 ', 'probd' ),
       esc_url( 'https://wordpress.org/' ),
       sprintf(
         /* translators:*/
         esc_html__( 'Powered by %s. ', 'probd' ), 'WordPress'
       ),
-      esc_url( 'https://abmsourav.com/probd/probd' ),
       sprintf(
         /* translators:*/
         esc_html__( '%s - ', 'probd' ), 'proBD'
       ),
-      esc_url( 'https://abmsourav.com' ),
       sprintf(
         /* translators:*/
-        esc_html__( '%s', 'probd' ), 'Keramot UL Islam'
+        esc_html__( 'by %s', 'probd' ), 'Keramot UL Islam'
       )
     );
     echo apply_filters( 'probd_site_info_content', $site_info ); // WPCS: XSS ok.
