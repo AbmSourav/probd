@@ -26,7 +26,12 @@ http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Installation
 
-#### Classic install
+#### Theme ripo Installation
+  1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
+  2. Type in Twenty Nineteen in the search form and press the 'Enter' key on your keyboard.
+  3. Click on the 'Activate' button to use your new theme right away.
+  
+#### Installation from Github
 - Download the proBD folder from GitHub
 - IMPORTANT: If you download it from GitHub make sure you rename the "probd-master.zip" file just to "probd.zip" or you might have problems!
 - Upload it into your WordPress installation theme subfolder: `/wp-content/themes/`
