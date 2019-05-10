@@ -1,9 +1,14 @@
 # Changelog
-	## 1.1.2 2019 Mar. 15th =
+    ## 1.6.0 2019 May 10th
+    - a page template added with popular post slider, owl carousel support added.
+
+    ## 1.5.0 2019 Apr. 8th
+    - Only one Footer link added
+	
+	## 1.1.2 2019 Mar. 15th
     - Escaping has been fixed on index.php
 
-
-	## 1.1.1 2019 Mar. 8th =
+	## 1.1.1 2019 Mar. 8th
     - unused variable has been removed.
     - menu hover issue has been fixed.
     - conditional enqueue for block.css added.
