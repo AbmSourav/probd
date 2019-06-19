@@ -1,4 +1,8 @@
 # Changelog
+    ## 1.7.0 2019 Jun. 19th
+    - Version update
+    - Home page issue fixed.
+
     ## 1.6.0 2019 May 10th
     - a page template added with popular post slider, owl carousel support added.
 

@@ -193,12 +193,12 @@
 }
 @media only screen and (min-width: 1288px) {
   .single .entry.entry-content > *.alignfull, .page .entry.entry-content > *.alignfull {
-    left: calc(-25vw + 13px);
+    left: calc(-26vw + 13px);
   }
 }
 @media only screen and (min-width: 1800px) {
   .single .entry.entry-content > *.alignfull, .page .entry.entry-content > *.alignfull {
-    left: calc(-25vw + 70px);
+    left: calc(-27vw + 7%);
   }
 }
 

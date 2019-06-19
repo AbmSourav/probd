@@ -1,10 +1,10 @@
 === proBD ===
 Contributors: sourav926
-Tags: theme-options, custom-logo, custom-colors, featured-images, threaded-comments, editor-style, post-formats, footer-widgets, sticky-post, translation-ready, blog
+Tags: block-styles, wide-blocks, theme-options, custom-logo, custom-colors, featured-images, threaded-comments, editor-style, post-formats, footer-widgets, sticky-post, translation-ready, blog
 Requires at least: 4.9.7
-Tested up to: 5.1
+Tested up to: 5.2.2
 Requires PHP: 5.6
-Stable tag: 1.6.0
+Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,9 @@ proBD is distributed under the terms of the GNU GPL version 2.
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+    = 1.7.0 2019 Jun. 19th =
+    * Home page issue fixed, Version update.
+
     = 1.6.0 2019 May 10th =
     * a page template added with popular post slider, owl carousel support added.
 
@@ -61,6 +64,9 @@ proBD is distributed under the terms of the GNU GPL version 2.
     * Initial Release
 
 == Upgrade Notice ==
+= 1.7.0 =
+Version update. Stay up to date.
+
 = 1.6.0 =
 Popular Post slider added with page template. Stay up to date.
 
